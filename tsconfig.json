@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "es5",
+    "strict": true,
+    "lib": [
+      "dom",
+      "ESNext",
+    ],
+    "allowJs": false,
+    "esModuleInterop": true,
+    "removeComments": true,
+    "allowSyntheticDefaultImports": true,
+    "strictPropertyInitialization": false
+  },
+  "include": [
+    "./jest-dom-setup.ts"
+  ],
+  "exclude": [
+    "./node_modules/**/*",
+    "./dist"
+  ]
+}
